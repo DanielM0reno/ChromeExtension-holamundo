@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Mi extensión de Hola Mundo",
+  "version": "1.0",
+  "description": "Muestra un mensaje Hola Mundo en la consola del navegador",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
